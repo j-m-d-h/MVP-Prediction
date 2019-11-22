@@ -16,17 +16,17 @@ column1 = dbc.Col(
         dcc.Markdown(
             """
         
-            ## Your Value Proposition
+            ## Do BBWAA writers vote in a predictable pattern?
 
-            Emphasize how the app will benefit users. Don't emphasize the underlying technology.
+            The Baseball Writers Association of America (BBWAA) votes annually on a number of Major League Baseball awards, the most prestigous being the league MVP.
 
-            ✅ RUN is a running app that adapts to your fitness levels and designs personalized workouts to help you improve your running.
 
-            ❌ RUN is the only intelligent running app that uses sophisticated deep neural net machine learning to make your run smarter because we believe in ML driven workouts.
+            This app shows how over the years the BBWAA has changed what they value in an MVP candidate.
+
 
             """
         ),
-        dcc.Link(dbc.Button('Your Call To Action', color='primary'), href='/predictions')
+        dcc.Link(dbc.Button('Get Started', color='primary'), href='/predictions')
     ],
     md=4,
 )
