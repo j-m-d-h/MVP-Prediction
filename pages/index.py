@@ -21,7 +21,7 @@ column1 = dbc.Col(
             The Baseball Writers Association of America (BBWAA) votes annually on a number of Major League Baseball awards, the most prestigous being the league MVP.
 
 
-            This app shows how over the years the BBWAA has changed what they value in an MVP candidate.
+            This app predicts the the probability of a player receiving the award.
 
 
             """
@@ -37,7 +37,7 @@ fig = px.scatter(gapminder.query("year==2007"), x="gdpPercap", y="lifeExp", size
 
 column2 = dbc.Col(
     [
-        dcc.Graph(figure=fig),
+        #dcc.Graph(figure=fig),
     ]
 )
 
